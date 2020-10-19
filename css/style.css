@@ -1,29 +1,57 @@
-.view {
-    background: url("../img/background.jpeg")no-repeat center center;
-    background-size: cover;
+body,html{
+background: #EEEEF4;
+overflow:hidden;
+margin:0;
+padding:0;
+text-align:center;
+font-family: monospace;
+font-weight: 100;
+cursor:default;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;  
+
 }
 
-.navbar {
-    background-color: transparent;
+.construction-message{
+position:absolute;
+top:25%;
+width:100%;
 }
 
-.top-nav-collapse {
-    background-color: #4285F4;
+h1{
+color:#E43;
+font-weight:100;
+font-size:3em;
 }
 
-@media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: #4285F4;
-    }
+h2{
+color:#333333;
+font-weight:300;
+font-size:1.5em;
 }
 
-html,
-body,
-header,
-.view {
-  height: 100%;
+a{
+font-weight:300;
+color:#E43;
+text-decoration: none;
+font-size:1.5em;
 }
 
-.custom-link{
-    padding: 1rem;
+span{
+color:#E43;
+}
+
+.footer{
+position:absolute;
+bottom:0;
+margin-left:10px;
+}
+a{
+    padding: 10px 10px 5px 10px;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: rgb(216, 216, 216);
+    transition: ease .5s;
 }
